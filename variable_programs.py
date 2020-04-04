@@ -47,6 +47,8 @@ t=(15,"Shiva Kumar", 33)
 
 print(t)
 print(t[0])
+#Type 5 Dictionary
+
 
 d={1:10, 2:"Shiva Kumar"}
 print(d[2], type(d[2]))
