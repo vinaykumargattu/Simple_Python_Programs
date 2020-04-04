@@ -31,8 +31,27 @@ print(name[5:10])
 
 list_s=[10,"Vinay Kumar", 33]
 
+list_s[1]="shivakumar"
+
 print(list_s)
 print(list_s[0])
 print(list_s[1])
 print(list_s[2])
-print(list_s[0:2])
+print(list_s[0:3])
+
+print(id(list_s[1]))
+
+#Type 4 Tuple
+
+t=(15,"Shiva Kumar", 33)
+
+print(t)
+print(t[0])
+
+d={1:10, 2:"Shiva Kumar"}
+print(d[2], type(d[2]))
+print(d[1], type(d[1]))
+print(d.keys())
+print(d.values())
+
+
