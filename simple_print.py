@@ -15,5 +15,5 @@ print(name)
 #to know the variable type
 
 print(type(name))
-
+print()
 print("hello")
