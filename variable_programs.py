@@ -1,8 +1,15 @@
-name="vinaykumar"
 
-#print name vaiable information using simple print command
+#Python Data Types
 
-print(name)
-#to find variable type will use type() function in python
+#Type 1 Numbers
 
-print(type(name))
+
+a=12
+print(a, type(a))
+
+b=12.5;
+print(b, type(b))
+
+c=12.5j
+
+print(c, type(c))
