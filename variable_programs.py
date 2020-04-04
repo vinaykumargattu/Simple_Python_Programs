@@ -27,3 +27,12 @@ print(name*2)
 
 print(name[5:10])
 
+#Type 3 List
+
+list_s=[10,"Vinay Kumar", 33]
+
+print(list_s)
+print(list_s[0])
+print(list_s[1])
+print(list_s[2])
+print(list_s[0:2])
