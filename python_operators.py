@@ -21,7 +21,7 @@ print(f)
 print(g)
 
 
-#Comparison operator
+"""#Comparison operator
 h=x==y
 i=x!=y
 j=x<=y
@@ -33,4 +33,13 @@ print(i)
 print(j)
 print(k)
 print(l)
-print(m)
+print(m)"""
+
+#Python assignment operators
+
+
+
+x=y
+print(x)
+
+print(x)
