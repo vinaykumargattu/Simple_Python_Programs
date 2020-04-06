@@ -5,6 +5,8 @@ emp={"name":"vinay", "age":22}
 print(type(emp))
 print(emp.keys())
 print(emp.values())
+print(len(emp))
+print(str(emp))
 
 print("Before modificatoin")
 for a in emp:
@@ -21,8 +23,14 @@ for a in emp:
 print("Name is %s" %emp["name"])
 print("Age is %d"%emp["age"])
 
-for k in emp:
-    
+#for loop to print the values of the dictionary by using values() method.
+
+for j in emp.values():
+    print(j)
+
+for k in emp.keys():
     print(k)
-for i in emp:
-    print(emp[i])
+
+for l in emp.items():
+    print(l)
+
