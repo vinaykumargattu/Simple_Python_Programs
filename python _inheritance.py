@@ -16,5 +16,7 @@ class Mymath():
 class Cals(Mymath):
     print("This is inherited class")
 
+print(issubclass(Mymath,Cals))
+print(issubclass(Cals, Mymath))
 my = Cals(10,20)
 my.add(1,2);
