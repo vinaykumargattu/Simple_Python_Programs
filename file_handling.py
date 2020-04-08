@@ -1,14 +1,13 @@
-fileopne = open("simple.txt","r")
-if fileopne:
-    print("file opend sucessfully ")
+#Python File Handling
 
-content = fileopne.read(5)
-compline = fileopne.readline()
+fileopen = open("simple.txt","r")
+print(fileopen)
+print(type(fileopen))
+print(fileopen.read(5))
+print(fileopen.readline())
 
-print(type(content))
-print(type(compline))
-print(content)
-print(compline)
+filewrite = open("simple.txt", "w")
+filewrite.write("Hello Vinay kumar")
 
+fileopen.close()
 
-fileopne.close();
