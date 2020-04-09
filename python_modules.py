@@ -12,7 +12,7 @@ class Mymath():
 
 my = Mymath()
 
-#The dir() function returns a sorted list of names defined in the passed module. 
+#The dir() function returns a sorted list of names defined in the passed module.
 
 list = dir(json)
 print(list)
